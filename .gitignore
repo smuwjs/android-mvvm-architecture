@@ -25,6 +25,7 @@ proguard/
 
 # Log Files
 *.log
+.settings/
 
 # Android Studio Navigation editor temp files
 .navigation/
@@ -33,18 +34,24 @@ proguard/
 captures/
 
 # Intellij
+.idea/
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/dictionaries
-.idea/libraries
+*.ipr
+*.iws
+
+#NDK
+obj/
 
 # Keystore files
 *.jks
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
+
+# Eclipse project files
+.classpath
+.project
+
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
@@ -53,3 +60,9 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+# Windows thumbnail db
+Thumbs.db
+# OSX files
+.DS_Store
+
